@@ -1,6 +1,6 @@
 {
   "name": "safake-bootstrap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom bootstrap for Safake",
   "main": "build/index.css",
   "scripts": {
