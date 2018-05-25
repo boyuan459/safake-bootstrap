@@ -1,0 +1,31 @@
+{
+  "name": "safake-bootstrap",
+  "version": "1.0.0",
+  "description": "Custom bootstrap for Safake",
+  "main": "build/index.css",
+  "scripts": {
+    "build": "lessc index.less build/index.css",
+    "start": "npm-watch"
+  },
+  "watch": {
+    "build": "index.less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boyuan459/safake-bootstrap.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "CSS"
+  ],
+  "author": "BYuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boyuan459/safake-bootstrap/issues"
+  },
+  "homepage": "https://github.com/boyuan459/safake-bootstrap#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "less": "^3.0.4"
+  }
+}
